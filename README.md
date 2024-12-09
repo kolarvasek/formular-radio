@@ -1,8 +1,7 @@
-# React + Vite
+# Voting form with Node.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple web app that takes your vote, sends it to the Node.js for a check and if it's correct it sends it back to the jsx file and adds it to Local Storage and displays it on the main page.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run use the following commands:
+  npm run dev ( to run the project )
+  node server/index.js ( this turns on the backend )
